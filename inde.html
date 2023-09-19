@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./image/girl3.png">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+   
+    <div class="hero">
+      <nav>
+          <div class="logo"> <h3>Portfolio</h3> </div>
+          <div class="links">
+              <ul>
+                  <li><a href="#about"class="active">About</a></li>
+                  <li><a href="#project">Projects</a></li>
+                  <!-- <li><a href="">Blog</a></li> -->
+                  <li><a href="">Contact</a></li>
+              </ul>
+          </div>
+      </nav> 
+      <div class="home">
+          
+        <div class="imgbox">
+          <div class="img1">
+            <img src="./image/me.PNG" alt="person">
+          </div>
+          <div class="rotate"></div>
+          <div class="rotate rotate2"></div>
+        </div>
+
+          <div class="home-data">
+              <h1>Hi,  I'm  <span>Rohan </span></h1>
+              <h2>Web Developer <br> and Funcationality. </h2>
+              <a href="" class="button" download="">Download CV</a>
+          </div>
+      </div>
+  </div>
+
+
+<!-- -----------------------About Section----------------------- -->
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1> <br>
+        <p class="para">Lorem ipsum dolor, sit amet consectetur Architecto saepe porro dolorum obcaecati ipsum dolor, sit amet consectetur adipisicing elit. Architecto saepe porro dolorum obcaecati  ipsum dolor, sit amet consectetur adipisicing elit. Architecto saepe porro dolorum obcaecati molestias iure alias non explicabo blanditiis illum odio consectetur accusamus nostrum pariatur ad a, corrupti provident veniam.
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+            <p class="tab-links" onclick="opentab('educations')">Educations</p>
+          </div>
+
+          <div class="tab-content active-tab" id="skills">  
+            <ul>
+              <li><span>Front-end Coding </span><br> Desigining Web interfaces </li>
+              <li><span>Responsive Design </span><br> Program Frameworks </li>
+              <li><span>Problem Solving  </span><br>Strong Communication Skills </li>
+            </ul>
+          </div>
+
+          <!-- <div class="tab-content " id="experience">
+            <ul>
+              <li><span>2018-2019  </span><br> Desigining Web interfaces </li>
+              <li><span>2018-2019  </span><br> Desigining Web interfaces </li>
+              <li><span>2018-2019  </span><br> Desigining Web interfaces </li>
+            </ul>
+          </div> -->
+
+          <div class="tab-content" id="educations">
+            <ul>
+              <li><span>2017  </span><br> Don Bosco High School </li>
+              <li><span>2017-2019  </span><br> MS College Mairwa, Siwan </li>
+              <li><span>2019-2023  </span><br> Mansarovar Global University, Bhopal </li>
+            </ul>
+          </div>
+
+          
+      </div>       
+    </div>
+  </div>
+</div>
+
+<!--  -----------------------Projects Section-----------------------  -->
+
+
+<div class="container" id="project">
+  <div class="text">
+    <p class="para2">My <span>Projects</span></p>
+  </div>
+  <div class="list-container">
+    <a href="./NetflixProject/index.html" target="_blank">
+      <img src="./image/Netflix.png" height="250px"  width="300px" class="IMG">
+    </a>
+    <a href="./ShadiProject/index.html"  target="_blank">
+      <img src="./image/shadi.png" height="250px"  width="300px" class="IMG">
+    </a>
+    <a href="./YoutubeProject/index.html"  target="_blank">
+      <img src="./image/Youtube.png" height="250px"  width="300px" class="IMG">
+    </a>
+    <a href="./Icecream/index.html"  target="_blank">
+      <img src="./image/icecream.jpg" height="250px"  width="300px" class="IMG">
+    </a>
+    <a href="./VIVO Project/index.html"  target="_blank">
+      <img src="./image/vivo.webp" height="250px"  width="300px" class="IMG">
+    </a>
+    <a href="./ZomatoProject/"  target="_blank">
+      <img src="./image/zomato.png" height="250px"  width="300px" class="IMG">
+    </a>
+  </div>
+</div>
+
+
+
+  <br><br><br><br><br><br><br><br><br><br>
+
+  <script src="Portfolio.js"></script>
+</body>
+</html>
